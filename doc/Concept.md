@@ -46,7 +46,7 @@ KinD is designed to work with Docker, which means it can run on any platform tha
 k3d is also designed to work with Docker, and it can run on any platform that supports Docker. Additionally, k3d is designed to be lightweight, so it may be a better choice for developers who have limited resources on their local machine.
 
 #### Demo
-![Demo](https://github.com/rshuvalov/AsciiArtify/blob/assets/demo.gif)
+![Demo](https://github.com/rshuvalov/AsciiArtify/blob/main/assets/demo.gif)
 
 #### Conclusion
 When it comes to choosing between Minikube, KinD, and k3d, there is no clear winner. Each tool has its own unique features and benefits, and the best choice for you will depend on your specific needs and preferences.
