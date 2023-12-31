@@ -1,0 +1,5 @@
+minikube start
+kubectl create deployment ascii-artify --image=rshuvalov/ascii-artify:1.0.0
+kubectl expose deployment ascii-artify --type=NodePort --port=3000
+kubectl port-forward service/ascii-artify 3000:3000
+curl localhost:3000
